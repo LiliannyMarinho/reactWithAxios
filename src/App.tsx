@@ -36,9 +36,7 @@ function App() {
       <strong>Olá {nome}</strong>
 
       <strong>{personagem && personagem.name}</strong>
-      <button onClick={() => defName('Tomate')}>Tomate</button>
-      <button onClick={() => defName('Batata')}>Batata</button>
-      <button onClick={() => defName('Beterraba')}>Beterraba</button>
+      <img src = 'IG88-NEGTC.webp' width='200px'></img>
 
     </div>
   )
