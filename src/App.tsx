@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import './App.css'
 import axios from 'axios';
+import ig88 from './assets/IG88-NEGTC.webp';
 
 interface Advice{
   id: number;
@@ -36,7 +37,7 @@ function App() {
       <strong>Olá {nome}</strong>
 
       <strong>{personagem && personagem.name}</strong>
-      <img src = 'IG88-NEGTC.webp' width='200px'></img>
+      <img src = {ig88} width='200px'></img>
 
     </div>
   )
