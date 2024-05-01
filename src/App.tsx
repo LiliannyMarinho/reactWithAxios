@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import './App.css'
 import axios from 'axios';
-import ig88 from './assets/IG88-NEGTC.webp';
+import ig88 from './assets/gif-IG88.gif';
 
 /*interface Advice{
   id: number;
@@ -35,11 +35,13 @@ function App() {
   */
   return (
     <div>
-      <strong>{personagem && personagem.name}</strong>
-      <img src = {ig88} width='200px'/>
+      <h1><strong>{personagem && personagem.name}</strong></h1>
 
+      <img src = {ig88} width='500px'/>
+      <p>"Eu penso, logo existo. Eu destruo, logo resisto."</p>
     </div>
   )
 }
+
 
 export default App
