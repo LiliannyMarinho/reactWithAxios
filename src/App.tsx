@@ -39,6 +39,7 @@ function App() {
 
       <img src = {ig88} width='500px'/>
       <p>"Eu penso, logo existo. Eu destruo, logo resisto."</p>
+      <link to={'/test'}>Novo Teste</link>
     </div>
   )
 }
